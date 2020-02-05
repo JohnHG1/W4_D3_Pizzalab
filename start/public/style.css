@@ -1,36 +1,50 @@
 body {
-  background-color: lightcyan
-  color: #000000;
-  font-size: 1.5em;
+  background-color: lightgrey;
+  background-image: url(https://img.favpng.com/25/16/11/pizza-background-png-favpng-hmgJuAXzx00F7V4cmM7WaCtKh.jpg);
+
+  background-image: url("bgdesert.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+
+  /* background-image: url("zinc.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left; */
+
+
+  color: black;
+  font-size: 1.75em;
   font-family: Lato, sans-serif;
-  maring: 20px;
+  text-decoration: bold;
+  maring: 40px;
 }
 
 a {
-  text-decoration: none;
-  color: #eff9f0;
+  text-decoration: underline;
+  color: black;
+}
+
+p {
+  text-decoration: bold;
+  color: red;
 }
 
 ul {
   list-style: none;
-}
-
-.list {
-  margin: 0 auto;
-  margin-top: 100px;
-  width: 400px;
-}
-
-li {
-  border-bottom: 0.5px solid #b09e99;
+  color: black;
+  text-align: auto;
 }
 
 h1 {
-  color: dodgerblue;
   font-family: "Helvetica";
-  background-color:
+  font-size: 1.7em;
+    color: red;
+    text-align: left;
 }
+
 nav {
-  color: dodgerblue;
+  text-decoration: bold;
+  color: red;
   size: 20px;
-} */
+}
